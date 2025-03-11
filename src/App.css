@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-*{
+* {
   font-family: "Roboto Slab", serif;
- 
-
 }
-body{
-  
 
+body {
   background-color: #5320a6;
   padding: 30px;
- 
-    
 }
-.app{
+
+.app {
   max-width: 600px;
-  margin: 0 auto 300px;
+  margin: 0 auto;
   background-color: #f3f3f3;
   padding: 20px 30px;
   border-radius: 10px;
 }
-h1{
+
+h1 {
   text-align: center;
   color: #8b32f4;
 }
-h2{
+
+h2 {
   margin-bottom: 10px;
   color: #8b32f4;
-
 }
-p{
+
+p {
   margin: 10px 0;
 }
-input{
+
+input {
   box-sizing: border-box;
 }
-button{
+
+button {
   background-color: #5320a6;
   color: #f6f5f8;
   padding: 10px 20px;
@@ -44,18 +44,19 @@ button{
   opacity: 0.9;
   transition: 0.3s;
   margin-right: 20px;
-  
 }
-button:hover{
+
+button:hover {
   opacity: 1;
 }
-.todo-list{
+
+.todo-list {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #8b32f4;
-  
 }
-.todo{
+
+.todo {
   background-color: #8b32f4;
   border-radius: 5px;
   padding: 10px;
@@ -63,21 +64,29 @@ button:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal; 
+  word-break: break-word; 
+  overflow: hidden; 
+}
 
-}
-.complete{
+.complete {
   background-color: #19181a;
- color: #ddd;
- 
+  color: #ddd;
 }
-.remove{
+
+.remove {
   background-color: #e7241d;
 }
-.todo-form{
-  padding-bottom: 1.5rem;
 
+.todo-form {
+  padding-bottom: 1.5rem;
 }
-input, select{
+
+input,
+select {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #5320a6;
@@ -85,11 +94,52 @@ input, select{
   width: 100%;
   color: #5320a6;
 }
-input::placeholder{
-  color: #5320a6;
 
-}
-.motivacional-quote{
+input::placeholder {
   color: #5320a6;
-  
+}
+
+.motivacional-quote {
+  color: #5320a6;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 0 10px;
+    padding: 15px;
+  }
+
+  .todo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .todo .complete,
+  .todo .remove {
+    margin: 5px 0;
+    
+  }
+
+  .todo-list {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  select {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .motivacional-quote {
+    font-size: 1.2rem;
+  }
 }
