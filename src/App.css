@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  font-family: "Roboto Slab", serif;
+ 
+
+}
+body{
+  
+
+  background-color: #5320a6;
+  padding: 30px;
+ 
+    
+}
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #f3f3f3;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  color: #8b32f4;
+}
+h2{
+  margin-bottom: 10px;
+  color: #8b32f4;
+
+}
+p{
+  margin: 10px 0;
+}
+input{
+  box-sizing: border-box;
+}
+button{
+  background-color: #5320a6;
+  color: #f6f5f8;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+  margin-right: 20px;
+  
+}
+button:hover{
+  opacity: 1;
+}
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #8b32f4;
+  
+}
+.todo{
+  background-color: #8b32f4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.complete{
+  background-color: #19181a;
+ color: #ddd;
+ 
+}
+.remove{
+  background-color: #e7241d;
+}
+.todo-form{
+  padding-bottom: 1.5rem;
+
+}
+input, select{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #5320a6;
+  border-radius: 4px;
+  width: 100%;
+  color: #5320a6;
+}
+input::placeholder{
+  color: #5320a6;
+
+}
+.motivacional-quote{
+  color: #5320a6;
+  
+}
