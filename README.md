@@ -30,5 +30,6 @@ Link onde o projeto esta hospedado : https://todolistdiario.netlify.app/
 ![Desktop](desktop.png)
 
 📱 Projeto Mobile
+
 ![Mobile](mobile.png)
 
