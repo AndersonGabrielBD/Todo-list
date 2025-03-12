@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import "./App.css"
 import Todo from './components/Todo'
 import TodoForm from './components/TodoForm'
+import Motivational from './components/Motivational'
 
 
 function App() {
@@ -67,7 +68,7 @@ return (
   <div className="app">
     <h1>To do list</h1>
     <div className="motivacional-quote">
-      <p>{currentQuote}</p>
+      <Motivational/>
     </div>
     <div className="todo-list">
       {todos.map((todo) => (
@@ -80,6 +81,7 @@ return (
       ))}
     </div>
     <TodoForm addTodo={addTodo} />
+      
   </div>
 );
 }
