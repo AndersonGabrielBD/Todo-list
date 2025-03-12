@@ -26,9 +26,9 @@ Este é um Todo List interativo desenvolvido com React e Vite, que permite adici
 
 Link onde o projeto esta hospedado : https://todolistdiario.netlify.app/
 
-
+💻 Projeto Desktop
 ![Desktop](desktop.png)
 
-
+📱 Projeto Mobile
 ![Mobile](mobile.png)
 
