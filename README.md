@@ -23,3 +23,5 @@ Este é um Todo List interativo desenvolvido com React e Vite, que permite adici
 🔹 CSS – Para estilização simples e intuitiva.
 
 🔹 API para Frases Motivacionais – Para trazer frases de inspiração e motivação de maneira dinâmica, mudando a cada intervalo de tempo definido. A API fornece frases aleatórias para manter a produtividade elevada.
+
+Link onde o projeto esta hospedado : https://todolistdiario.netlify.app/
